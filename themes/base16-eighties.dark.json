@@ -363,8 +363,7 @@
         "gitDecoration.conflictingResourceForeground": "#F92672", 
         "gitDecoration.submoduleResourceForeground": "#f99157", 
 
-        "editorError.foreground": "#2d2d2d", 
-        "editorError.border": "#f2777a", 
+        "editorError.foreground": "#f2777a", 
 
         "statusBar.noFolderBackground": "#1e1e1e", 
         "statusBar.debuggingBackground": "#1e1e1e", 
@@ -374,7 +373,6 @@
         "editorCursor.foreground": "#d3d0c8", 
         "editor.foreground": "#d3d0c8", 
         "editorWhitespace.foreground": "#747369", 
-        "editor.lineHighlightBackground": "#747369", 
         "editor.selectionBackground": "#515151", 
         "selection.background": "#515151", 
         "list.errorForeground": "#F92672", 
@@ -384,7 +382,22 @@
         "list.activeSelectionForeground": "#d3d0c8", 
         "list.dropBackground": "#172e45", 
         "list.hoverBackground": "#262626", 
-        "list.hoverForeground": "#d3d0c8"
+        "list.hoverForeground": "#d3d0c8",
+
+        "editorGroupHeader.tabsBorder": "#2d2d2d",
+        "tab.border": "#1e1e1e",
+
+        "editorGroup.background": "#1e1e1e",
+        "tab.inactiveBackground": "#1e1e1e",
+        "tab.activeBackground": "#2d2d2d",
+        "tab.activeBorder": "#2d2d2d",
+        "tab.hoverBackground": "#393939",
+        "tab.hoverBorder": "#393939",
+
+        "titleBar.activeBackground": "#1e1e1e",
+        "titleBar.activeForeground": "#1e1e1e",
+        "titleBar.inactiveBackground": "#1e1e1e",
+        "titleBar.inactiveForeground": "#1e1e1e"
     }, 
     "colorSpaceName": "sRGB", 
     "author": "Mihai Ionut Vilcu (http://github.com/ionutvmi)", 
