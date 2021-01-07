@@ -79,6 +79,13 @@
         },
         {
             "settings": {
+                "foreground": "#ffcc66"
+            },
+            "name": "Math",
+            "scope": "support.constant.math.js"
+        },
+        {
+            "settings": {
                 "foreground": "#6699cc"
             },
             "name": "Methods",
@@ -97,6 +104,20 @@
             },
             "name": "Support",
             "scope": "support.function"
+        },
+        {
+            "settings": {
+                "foreground": "#66cccc"
+            },
+            "name": "new Keyword",
+            "scope": "keyword.operator.new.js"
+        },
+        {
+            "settings": {
+                "foreground": "#ffcc66"
+            },
+            "name": "new Object",
+            "scope": "new.expr.js entity.name.type.js"
         },
         {
             "settings": {
@@ -208,6 +229,13 @@
             "settings": {
                 "foreground": "#66cccc"
             },
+            "name": "Properties of constants",
+            "scope": "variable.other.constant.property.js"
+        },
+        {
+            "settings": {
+                "foreground": "#66cccc"
+            },
             "name": "Special variables",
             "scope": "variable.language.self,support.constant.prototype.js"
         },
@@ -223,7 +251,7 @@
                 "fontStyle": "italic"
             },
             "name": "Function arguments",
-            "scope": "meta.parameters.js variable.parameter.js"
+            "scope": "variable.parameter.js"
         },
         {
             "settings": {
@@ -236,8 +264,8 @@
             "settings": {
                 "foreground": "#cc99cc"
             },
-            "name": "Function parens and hard brackets",
-            "scope": "meta.function.js meta.brace.round.js, meta.array.literal.js meta.brace.square.js"
+            "name": "Braces and hard brackets",
+            "scope": "meta.brace.round.js, meta.array.literal.js meta.brace.square.js"
         },
         {
             "settings": {

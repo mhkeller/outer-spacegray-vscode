@@ -23,11 +23,13 @@ Person.prototype.greet = function ({ message = 'hello', gone }) {
   }
   var index = Math.round(Math.random())
   var key = Object.keys(options)[index]
-  return options[key] + sum
+  return (options[key] + sum)
 }
 
 var person1 = new Person(1)
 console.log(person1.greet().coming)
+
+const myFunction = (d, e) => d * 2
 
 module.exports = {Person, myModule: hey}
 
