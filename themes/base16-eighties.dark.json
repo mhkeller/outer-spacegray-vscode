@@ -12,7 +12,7 @@
                 "foreground": "#d3d0c8"
             },
             "name": "Text",
-            "scope": "variable.parameter.function"
+            "scope": "variable.parameter.function,meta.catch meta.group variable,meta.catch punctuation.separator"
         },
         {
             "settings": {
@@ -37,7 +37,7 @@
         },
         {
             "settings": {
-                "foreground": "#d3d0c8"
+                "foreground": "#cc99cc"
             },
             "name": "Operators",
             "scope": "keyword.operator"
@@ -68,7 +68,7 @@
                 "foreground": "#ffcc66"
             },
             "name": "Classes",
-            "scope": "support.class, entity.name.type.class"
+            "scope": "support.class, entity.name.type.class,support.module,support.type.object, entity.name.class, entity.name.type.class,variable.language.this"
         },
         {
             "settings": {
@@ -168,6 +168,106 @@
             "name": "Values",
             "scope": "none"
         },
+
+        {
+            "settings": {
+                "foreground": "#6699cc"
+            },
+            "name": "Objects",
+            "scope": "meta.import.js punctuation.definition.block.js, punctuation.definition.binding-pattern.object.js, punctuation.definition.binding-pattern.array.js"
+        },
+        {
+            "settings": {
+                "foreground": "#cc99cc"
+            },
+            "name": "Parens",
+            "scope": "punctuation.separator.parameter.function,punctuation.separator.comma,punctuation.definition.group.js"
+        },
+        {
+            "settings": {
+                "foreground": "#d3d0c8"
+            },
+            "name": "Variables",
+            "scope": "meta.brackets meta.block variable.other.readwrite.js,variable, variable.other.dollar.only.js"
+        },
+        {
+            "settings": {
+                "foreground": "#6699cc"
+            },
+            "name": "Variables",
+            "scope": "variable.language"
+        },
+        {
+            "settings": {
+                "foreground": "#f2777a"
+            },
+            "name": "Variables",
+            "scope": "variable.other.property.js"
+        },
+        {
+            "settings": {
+                "foreground": "#66cccc"
+            },
+            "name": "Special variables",
+            "scope": "variable.language.self,support.constant.prototype.js"
+        },
+        {
+            "settings": {
+                "foreground": "#cc99cc"
+            },
+            "name": "Dollar variables",
+            "scope": "punctuation.dollar.js"
+        },
+        {
+            "settings": {
+                "fontStyle": "italic"
+            },
+            "name": "Function arguments",
+            "scope": "meta.parameters.js variable.parameter.js"
+        },
+        {
+            "settings": {
+                "fontStyle": "italic"
+            },
+            "name": "Export and default",
+            "scope": "support.type.object.module.js, keyword.control.default.js, keyword.control.export.js"
+        },
+        {
+            "settings": {
+                "foreground": "#cc99cc"
+            },
+            "name": "Function parens and hard brackets",
+            "scope": "meta.function.js meta.brace.round.js, meta.array.literal.js meta.brace.square.js"
+        },
+        {
+            "settings": {
+                "foreground": "#6699cc"
+            },
+            "name": "Curly braces",
+            "scope": "punctuation.section.block.js"
+        },
+        {
+            "settings": {
+                "foreground": "#cc99cc"
+            },
+            "name": "Commas, key/value sep",
+            "scope": "punctuation.separator.comma.js,punctuation.separator.key-value.js"
+        },
+        {
+            "settings": {
+                "fontStyle": "italic"
+            },
+            "name": "Object keys",
+            "scope": "meta.object-literal.key.js"
+        },
+        {
+            "settings": {
+                "fontStyle": ""
+            },
+            "name": "Object keys",
+            "scope": "meta.object-literal.key.js punctuation.separator.key-value.js"
+        },
+
         {
             "settings": {
                 "fontStyle": "",
@@ -222,7 +322,7 @@
         },
         {
             "settings": {
-                "foreground": "#f2777a"
+                "foreground": "#f99157"
             },
             "name": "Lists",
             "scope": "markup.list"
@@ -371,6 +471,7 @@
         "activityBar.background": "#2d2d2d",
         "editor.background": "#2d2d2d",
         "editor.lineHighlightBorder": "#2d2d2d",
+        "editor.lineHighlightBackground": "#393939",
         "editorCursor.foreground": "#d3d0c8",
         "editor.foreground": "#d3d0c8",
         "editorWhitespace.foreground": "#747369",
