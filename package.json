@@ -1,17 +1,16 @@
 {
-    "name": "spacegray-vscode",
-    "displayName": "Spacegray VSCode",
-    "description": "Spacegray theme for visual studio code.",
-    "version": "1.2.3",
-    "publisher": "ionutvmi",
+    "name": "outer-spacegray-vscode",
+    "displayName": "Outer Spacegray VSCode",
+    "description": "Outer Spacegray theme for visual studio code.",
+    "version": "0.0.1",
+    "publisher": "mhkeller",
     "icon": "screenshots/eighties.png",
     "repository": {
         "type": "git",
-        "url": "https://github.com/ionutvmi/spacegray-vscode"
+        "url": "https://github.com/mhkeller/outer-spacegray-vscode"
     },
     "bugs": {
-        "url": "https://github.com/ionutvmi/spacegray-vscode/issues",
-        "email": "ionutvmi@gmail.com"
+        "url": "https://github.com/mhkeller/outer-spacegray-vscode/issues"
     },
     "engines": {
         "vscode": "*"
@@ -22,22 +21,22 @@
     "contributes": {
         "themes": [
             {
-                "label": "Spacegray Ocean Dark",
+                "label": "Outer Spacegray Ocean Dark",
                 "uiTheme": "vs-dark",
                 "path": "./themes/base16-ocean.dark.json"
             },
             {
-                "label": "Spacegray Eighties Dark",
+                "label": "Outer Spacegray Eighties Dark",
                 "uiTheme": "vs-dark",
                 "path": "./themes/base16-eighties.dark.json"
             },
             {
-                "label": "Spacegray Mocha Dark",
+                "label": "Outer Spacegray Mocha Dark",
                 "uiTheme": "vs-dark",
                 "path": "./themes/base16-mocha.dark.json"
             },
             {
-                "label": "Spacegray Ocean Light",
+                "label": "Outer Spacegray Ocean Light",
                 "uiTheme": "vs",
                 "path": "./themes/base16-ocean.light.json"
             }
