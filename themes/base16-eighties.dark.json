@@ -82,7 +82,7 @@
                 "foreground": "#ffcc66"
             },
             "name": "Math",
-            "scope": "support.constant.math.js"
+            "scope": "support.constant.math"
         },
         {
             "settings": {
@@ -103,21 +103,21 @@
                 "foreground": "#66cccc"
             },
             "name": "Support",
-            "scope": "support.function"
+            "scope": "support.function,support.variable.property"
         },
         {
             "settings": {
                 "foreground": "#66cccc"
             },
             "name": "new Keyword",
-            "scope": "keyword.operator.new.js"
+            "scope": "keyword.operator.new"
         },
         {
             "settings": {
                 "foreground": "#ffcc66"
             },
             "name": "new Object",
-            "scope": "new.expr.js entity.name.type.js"
+            "scope": "new.expr entity.name.type"
         },
         {
             "settings": {
@@ -195,21 +195,21 @@
                 "foreground": "#6699cc"
             },
             "name": "Objects",
-            "scope": "meta.import.js punctuation.definition.block.js, punctuation.definition.binding-pattern.object.js, punctuation.definition.binding-pattern.array.js"
+            "scope": "meta.import punctuation.definition.block, punctuation.definition.binding-pattern.object, punctuation.definition.binding-pattern.array"
         },
         {
             "settings": {
                 "foreground": "#cc99cc"
             },
             "name": "Parens",
-            "scope": "punctuation.separator.parameter.function,punctuation.separator.comma,punctuation.definition.group.js"
+            "scope": "punctuation.separator.parameter.function,punctuation.separator.comma,punctuation.definition.group"
         },
         {
             "settings": {
                 "foreground": "#d3d0c8"
             },
             "name": "Variables",
-            "scope": "meta.brackets meta.block variable.other.readwrite.js,variable, variable.other.dollar.only.js"
+            "scope": "meta.brackets meta.block variable.other.readwrite,variable, variable.other.dollar.only"
         },
         {
             "settings": {
@@ -222,78 +222,78 @@
             "settings": {
                 "foreground": "#f2777a"
             },
-            "name": "Variables",
-            "scope": "variable.other.property.js"
+            "name": "Object properties",
+            "scope": "variable.other.property,variable.other.object.property"
         },
         {
             "settings": {
                 "foreground": "#66cccc"
             },
             "name": "Properties of constants",
-            "scope": "variable.other.constant.property.js"
+            "scope": "variable.other.constant.property"
         },
         {
             "settings": {
                 "foreground": "#66cccc"
             },
             "name": "Special variables",
-            "scope": "variable.language.self,support.constant.prototype.js"
+            "scope": "variable.language.self,support.constant.prototype"
         },
         {
             "settings": {
                 "foreground": "#cc99cc"
             },
             "name": "Dollar variables",
-            "scope": "punctuation.dollar.js"
+            "scope": "punctuation.dollar"
         },
         {
             "settings": {
                 "fontStyle": "italic"
             },
             "name": "Function arguments",
-            "scope": "variable.parameter.js"
+            "scope": "variable.parameter"
         },
         {
             "settings": {
                 "fontStyle": "italic"
             },
             "name": "Export and default",
-            "scope": "support.type.object.module.js, keyword.control.default.js, keyword.control.export.js"
+            "scope": "support.type.object.module, keyword.control.default, keyword.control.export"
         },
         {
             "settings": {
                 "foreground": "#cc99cc"
             },
             "name": "Braces and hard brackets",
-            "scope": "meta.brace.round.js, meta.array.literal.js meta.brace.square.js"
+            "scope": "meta.brace.round, meta.array.literal meta.brace.square"
         },
         {
             "settings": {
                 "foreground": "#6699cc"
             },
             "name": "Curly braces",
-            "scope": "punctuation.section.block.js"
+            "scope": "punctuation.section.block"
         },
         {
             "settings": {
                 "foreground": "#cc99cc"
             },
             "name": "Commas, key/value sep",
-            "scope": "punctuation.separator.comma.js,punctuation.separator.key-value.js"
+            "scope": "punctuation.separator.comma,punctuation.separator.key-value"
         },
         {
             "settings": {
                 "fontStyle": "italic"
             },
             "name": "Object keys",
-            "scope": "meta.object-literal.key.js"
+            "scope": "meta.object-literal.key"
         },
         {
             "settings": {
                 "fontStyle": ""
             },
             "name": "Object keys",
-            "scope": "meta.object-literal.key.js punctuation.separator.key-value.js"
+            "scope": "meta.object-literal.key punctuation.separator.key-value"
         },
 
         {
