@@ -364,6 +364,13 @@
         },
         {
             "settings": {
+                "foreground": "#6699cc"
+            },
+            "name": "Text below headers",
+            "scope": "markup.heading.setext"
+        },
+        {
+            "settings": {
                 "background": "#515151",
                 "foreground": "#d3d0c8"
             },
