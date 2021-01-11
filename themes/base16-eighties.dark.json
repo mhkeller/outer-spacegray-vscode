@@ -241,10 +241,10 @@
         },
         {
             "settings": {
-                "foreground": "#cc99cc"
+                "foreground": "#ffcc66"
             },
-            "name": "Dollar variables",
-            "scope": "punctuation.dollar"
+            "name": "Dollar variables and labels",
+            "scope": "punctuation.dollar, entity.name.label.js, punctuation.separator.label.js"
         },
         {
             "settings": {
