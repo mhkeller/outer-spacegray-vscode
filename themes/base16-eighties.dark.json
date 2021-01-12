@@ -371,8 +371,7 @@
         },
         {
             "settings": {
-                "background": "#515151",
-                "foreground": "#d3d0c8"
+                "foreground": "#ffcc66"
             },
             "name": "Separator",
             "scope": "meta.separator"
